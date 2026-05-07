@@ -253,7 +253,7 @@ def main():
         # The following requires 18 GB of GPU memory.
 #        per_device_train_batch_size=4,  #  4 (18 GB)
 #        gradient_accumulation_steps=32, # 32 (18 GB)
-        num_train_epochs=,
+        num_train_epochs= 3,
         learning_rate=2e-4,
         bf16=True,
         logging_steps=10,
